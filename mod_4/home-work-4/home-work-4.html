@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Таблицы. Домашняя работа</title>
+<style>
+
+table 
+{
+margin: auto;
+border-collapse:collapse;
+width: 300px;
+height: 200px;
+}
+
+td 
+{
+font: normal 40px Arial, sans-serif;
+border: 5px inset #a0f;
+vertical-align: middle;
+text-align: center;
+color: #fff;
+}
+
+#A
+{
+background: rgb(235,200,0)
+}
+
+#B
+{
+background: rgb(100,100,100)
+}
+
+
+#C
+{
+background: rgb(0,200,235)
+}
+
+#D
+{
+background: rgb(222,222,222)
+}
+
+caption
+{
+color: #090;
+font: 20px Arial, sans-serif;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+<!-- 
+Нарисуйте таблицу согласно эскизу.
+Размеры таблицы: ширина 300px, высота 200px.
+Используя CSS измените фон каждой ячейки. 
+Что можно сделать с помощью атрибута bgcolor? Считается ли атрибут bgcolor у тега <td> в версии языка html4.01 устаревшим и почему? (w3.org/TR/html401) 
+-->
+
+
+<table>
+<caption>прямоугольники</caption>
+
+<tr>
+	<td rowspan='2' id = 'A'>1
+	<td id='B'>2
+	<td id='C'>3
+</tr>
+
+<tr>
+	<td colspan='2' id = 'D'> 4
+	
+</tr>
+
+</table>
+
+
+</body>
+</html>
