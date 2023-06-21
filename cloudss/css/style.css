@@ -1,0 +1,123 @@
+
+	/*right top <style>*/
+	html 
+	{
+	background: lightblue;
+	background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614847327_65-p-fonovaya-kartinka-dlya-saita-80.jpg);
+	opacity: 1;
+	background-size: 1200px;
+	}
+	/*menu*/
+	ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;
+	}
+
+	li {
+	float: right;
+	}
+
+	li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+
+	li a:hover {
+	background-color: #111;
+	}
+
+	.active {
+	background-color: #4CAF50;
+	}
+	
+	/*Заголовок*/
+	h1 
+	
+	{
+	 color: #900; /*комментарий*/
+	 text-align: center;
+	 
+	 text-transform: uppercase;
+	 letter-spacing: 4px;
+	 text-shadow: 25px 25px 2px rgba(255,0,0, 0.4);
+	 
+	}
+	
+	p
+	{
+	font:italic 700 18px/1.4em Arial, 'Arial Black', sans-serif;
+	text-align: justify;
+	text-indent: 2em;
+	}
+	
+	
+	#p1:first-letter,
+	#p2:first-letter,
+	#p3:first-letter,
+	#p4:first-letter,
+	#p5:first-letter
+	{
+	color: #f00;
+	font-size: 2em;
+	}
+	
+	img 
+	{
+	float: right;
+	}
+	
+	a 
+	{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: underline
+	}
+	
+	h2 
+	
+	{
+	 color: black; 
+	 text-align: left;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+	 text-shadow: 2px 2px 1px rgba(255,0,0, 0.7);
+	 
+	}
+	
+	span 
+	{
+	
+	color: #00f;
+	
+	}
+	
+	
+	div 
+	{
+	border: 1px solid black;
+	background-color: lightblue;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	}
+	
+	
+	#rek1 
+	{
+	float: left;
+	}
+	
+	
+	
+	/*right top </style>*/
+	

@@ -1,0 +1,16 @@
+.offers__products .products__block .inner[data-id="123123"]{background:linear-gradient(270deg,rgba(15,175,149,.5) 0,rgba(123,211,197,.0881112) 52.07%,rgba(255,255,255,0) 100%)}
+
+	#p1:first-letter,
+	#p2:first-letter,
+	#p3:first-letter,
+	#p4:first-letter,
+	#p5:first-letter
+	{
+	color: #f00;
+	font-size: 2em;
+	}
+	
+	img 
+	{
+	float: right;
+	}
